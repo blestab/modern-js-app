@@ -4,17 +4,33 @@
   "description": "Tutorial on setting up a modern JavaScript app project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blestab/modern-js-app.git"
   },
-  "keywords": ["react","tutorial"],
-  "author": "Blesse Tabvirwa",
+  "keywords": [
+    "react",
+    "tutorial"
+  ],
+  "author": "Blessed Tabvirwa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blestab/modern-js-app/issues"
   },
-  "homepage": "https://github.com/blestab/modern-js-app#readme"
+  "homepage": "https://github.com/blestab/modern-js-app#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.1",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
 }
