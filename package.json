@@ -1,0 +1,20 @@
+{
+  "name": "modern-js-app",
+  "version": "1.0.0",
+  "description": "Tutorial on setting up a modern JavaScript app project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blestab/modern-js-app.git"
+  },
+  "keywords": ["react","tutorial"],
+  "author": "Blesse Tabvirwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blestab/modern-js-app/issues"
+  },
+  "homepage": "https://github.com/blestab/modern-js-app#readme"
+}
